@@ -1,0 +1,210 @@
+/* Base HTML Styles */
+
+:root {
+  --pink: #f38fb1;
+  --yellow: #f4d040;
+  --green: #57d68d;
+  --blue: #5dade2;
+  --black: #111111;
+  --gray: #c3c3c3;
+}
+
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--black);
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Header */
+
+nav {
+  display: list-item;
+}
+
+.header {
+  height: 1000px;
+}
+
+svg {
+  height: 100px;
+}
+/* Mobile Header */
+
+.mobile-header {
+  padding: 16px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* Components */
+
+.btn-primary,
+.btn-secondary {
+  background-color: white;
+  padding: 16px 24px;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--pink);
+  border-radius: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-primary {
+  background-color: white;
+}
+.btn-secondary {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid white;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mission Message */
+
+#youtube {
+  background-color: lightgoldenrodyellow;
+  padding: 56px 16px;
+}
+
+#youtube h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+#youtube .content {
+  color: red;
+}
+
+/* Icon */
+
+#youtubeitems article {
+  padding: 32px 16px;
+}
+
+#youtubeitems article .icon {
+  height: 250px;
+}
+
+#youtubeitems article h2 {
+  margin-bottom: 16px;
+  color: white;
+}
+
+/* Mission Statement Poem Img */
+
+#youtubecontent .missionstatepoem {
+  height: 300px;
+}
+
+/* Poems Page */
+
+#poemcontent .poems .peacepoem {
+  height: 500px;
+  align-content: center;
+}
+ /* Music Page */
+
+ h2 {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+ }
+
+ p {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+ }
+
+#youtubemusicitems .iconalbum {
+  height: 300px;
+  display: flex;
+  margin: 0 auto;
+ }
+
+ #youtubemusicitems .track1video {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 56px;
+ }
+
+ #youtubemusicitems .track2video {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 56px;
+ }
+
+ #youtubemusicitems .track3video {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 56px;
+ }
+
+ /* Modeling Page */
+
+#modelingitems .modelingphoto1 .modelingphoto2 {
+  height: 40rem;
+  /* text-align: center; */
+  display:block;
+  /* margin: 40px auto; */
+  /* justify-content: center; */
+  /* align-items:center; */
+  padding: 32px 16px;
+}
