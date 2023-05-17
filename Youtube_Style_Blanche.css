@@ -56,27 +56,6 @@ select {
   font: inherit;
 }
 
-/* Header */
-
-nav {
-  display: list-item;
-}
-
-.header {
-  height: 1000px;
-}
-
-svg {
-  height: 100px;
-}
-/* Mobile Header */
-
-.mobile-header {
-  padding: 16px;
-  align-items: flex-end;
-  justify-content: center;
-}
-
 /* Components */
 
 .btn-primary,
@@ -87,7 +66,7 @@ svg {
   text-decoration: none;
   color: var(--pink);
   border-radius: 4px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btn-primary {
@@ -101,6 +80,64 @@ svg {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+}
+
+/* Header */
+
+.desktop-nav {
+  display: none;
+}
+
+header button {
+  all: unset;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header a {
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  nav {
+    display: list-item;
+  }
+
+  .header {
+    height: 1000px;
+  }
+
+  svg {
+    height: 100px;
+  }
+
+  header nav ul {
+    display: flex;
+    gap: 24px;
+    margin-right: 16px;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+}
+
+.logo,
+.hamburger-icon {
+  height: 50px;
+}
+
+/* Mobile Header */
+
+.mobile-header {
+  padding: 16px;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 /* Mission Message */
@@ -117,6 +154,12 @@ svg {
 
 #youtube .content {
   color: red;
+}
+
+@media (min-width: 768px) {
+  #youtube {
+    padding: 120px 56px;
+  }
 }
 
 /* Icon */
@@ -146,65 +189,87 @@ svg {
   height: 500px;
   align-content: center;
 }
- /* Music Page */
+/* Music Page */
 
- h2 {
+h2 {
   text-align: center;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
- }
+}
 
- p {
+p {
   text-align: center;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
- }
+}
 
 #youtubemusicitems .iconalbum {
   height: 300px;
   display: flex;
   margin: 0 auto;
- }
+}
 
- #youtubemusicitems .track1video {
+#youtubemusicitems .track1video {
   text-align: center;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   padding: 56px;
- }
+}
 
- #youtubemusicitems .track2video {
+#youtubemusicitems .track2video {
   text-align: center;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   padding: 56px;
- }
+}
 
- #youtubemusicitems .track3video {
+#youtubemusicitems .track3video {
   text-align: center;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   padding: 56px;
- }
+}
 
- /* Modeling Page */
+/* Modeling Page */
 
 #modelingitems .modelingphoto1 .modelingphoto2 {
   height: 40rem;
   /* text-align: center; */
-  display:block;
+  display: block;
   /* margin: 40px auto; */
   /* justify-content: center; */
   /* align-items:center; */
   padding: 32px 16px;
+}
+
+/* Utilities */
+
+.display-none {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-nav {
+    display: block;
+  }
+  .mobile-nav {
+    display: none;
+  }
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: var(--black);
+  display: block;
+  padding: 4px 16px;
 }
