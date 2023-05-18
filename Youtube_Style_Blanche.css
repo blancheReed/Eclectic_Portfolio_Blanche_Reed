@@ -202,20 +202,20 @@ header button {
 }
 /* Music Page */
 
-h2 {
-  text-align: center;
+.MOTLAlbumTitle {
+  text-align: left;
   display: flex;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
-p {
-  text-align: center;
+.MOTLAlbuminfo {
+  text-align: left;
   display: flex;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
 #youtubemusicitems .iconalbum {
@@ -225,30 +225,123 @@ p {
 }
 
 #youtubemusicitems .track1video {
-  text-align: center;
+  text-align: left;
   display: flex;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   padding: 56px;
 }
 
 #youtubemusicitems .track2video {
-  text-align: center;
+  text-align: left;
   display: flex;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   padding: 56px;
 }
 
-#youtubemusicitems .track3video {
-  text-align: center;
+/* Music Page Video2 */
+
+#container {
+  display: flex;
+}
+
+.text,
+.text2 {
+  flex: 1;
+  padding: 20px;
+  align-content: right;
+}
+
+.video {
+  flex: 1;
+}
+
+.video video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* #youtubemusicitems .track3video {
+  text-align: left;
   display: flex;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   padding: 56px;
+  height: 30vh;
+  background-image: url("Sacred Transformations_BeRead.mp4");
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .track3video {
+    display: flex;
+    align-items: left;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+    .Video2Header {
+  text-align: left;
+  display: flex;
+  margin: 0 auto;
+  justify-content: left;
+  align-items: left;
+}
+
+  .Video2Info {
+  text-align: left;
+  display: flex;
+  margin: 0 auto;
+  justify-content: left;
+  align-items: left;
+} */
+/* Music Page Top Image */
+
+.mysoundbanner-bg {
+  height: 30vh;
+  background-image: url("MySound.png");
+}
+
+@media (min-width: 768px) {
+  #AlbumCover {
+    display: flex;
+    align-items: left;
+    width: 100%;
+  }
+
+  .TitleMySound {
+    font-size: 4rem;
+    align-items: left;
+  }
+
+  .SubtitleMySound {
+    opacity: 0.7;
+    font-weight: normal;
+    align-items: left;
+    justify-content: left;
+  }
+
+  .pageblurb {
+    margin-right: 80px;
+  }
+
+  .pageblurb,
+  .mysoundbanner-bg {
+    flex: 1;
+  }
+
+  .mysoundbanner-bg {
+    height: 70vh;
+    background-image: url("MySound.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 62%;
+  }
 }
 
 /* Modeling Page */

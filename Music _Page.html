@@ -7,16 +7,44 @@
     <title>Music</title>
     <link rel="stylesheet" href="Youtube_Style_Blanche.css" />
   </head>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .text, .text2 {
+      flex: 1;
+    }
+
+    .video {
+      flex: 1;
+    }
+  </style>
   <body>
-    <section id="youtubemusicitems">
-      <article class="music">
+    <article class="music">
+      <img
+        src="img\MySound.png"
+        alt="album cover with blue butterfly and black background"
+        class="iconalbum"
+      />
+    </article>
+    <header id="AlbumCover">
+      <div class="mysoundbanner-bg"></div>
+      <section class="MyMusicBanner">
         <img
           src="img\MOTL Album Cover.png"
-          alt="album cover with blue butterfly and black background"
-          class="iconalbum"
+          alt="Page header for My Sound Page"
+          class="MyMusicAlbum"
         />
-      </article>
-      <article class="track1video">
+      </section>
+      <div class="pageblurb">
+        <h1 class="TitleMySound">Rap Collection</h1>
+        <h2 class="SubtitleMySound">Socially Conscious Messages</h2>
+      </div>
+    </header>
+    <!-- <section id="youtubemusicitems"> -->
+      <!-- <article class="track1video">
         <video width="500" height="340" controls controlsList="nodownload">
           <source
             src="video\Be Read - Miseducation of Tribal Lore.mp4"
@@ -26,28 +54,50 @@
         </video>
       </article>
       <article>
-        <h2>Miseducation of Tribal Lore</h2>
-        <p>
+        <h2 class="MOTLAlbumTitle">Miseducation of Tribal Lore</h2>
+        <p class="MOTLAlbuminfo">
           Miseducation of Tribal Lore is a track by Be Read that speaks about
           the challenges First Nations People face since colonisation has
           impacted their society.
         </p>
-      </article>
-      <article class="youtubelink">
+      </article> -->
+      <article class="MOTLYouTubelink">
         <a
-          class="btn-secondary"
+          class="MOTLlink"
           href="https://www.youtube.com/watch?v=a_LXuVBU6Jw"
           target="_blank"
           >Click to Listen on YouTube</a
         >
       </article>
-      <!-- <article class="track2video">
-        <video width="500" height="340" controls controlsList="nodownload" >
-          <source src="video\Spirit Girl Game Music.mp4" type="video/mp4"/>
-          Your browser does not support the video tag.
-        </video>
-      </article> -->
-      <article class="track3video">
+      <div id="container">
+        <div class="text">
+          <h1>Sacred Transformations</h1>
+          <p>
+            This track was inspired by a Conscious Creator workshop I attended
+            hosted by Jesse Wynyard
+          </p>
+        </div>
+        <div class="video">
+          <video
+            src="video/Sacred Transformations_BeRead.mp4"
+            controls
+            controlslist="nodownload"
+            width="300"
+          ></video>
+          <div class="text2">
+          <h1>Miseducation of Tribal Lore</h1>
+          <p>
+            This track is my way of storytelling as a First Nations woman
+          </p>
+          <video
+            src="video/Be Read - Miseducation of Tribal Lore.mp4"
+            controls
+            controlslist="nodownload"
+            width="300"
+          ></video>
+        </div>
+      </div>
+      <!-- <article class="track3video">
         <video width="500" height="340" controls controlsList="nodownload">
           <source
             src="video\Sacred Transformations_BeRead.mp4"
@@ -55,7 +105,13 @@
           />
           Your browser does not support the video tag.
         </video>
-      </article>
+        <h2 class="Video2Header">Sacred Transformations</h2>
+        <br />
+        <p class="Video2Info">
+          This track was inspired by a Conscious Creator workshop I attended
+          hosted by Jesse Wynyard
+        </p>
+      </article> -->
     </section>
   </body>
 </html>
