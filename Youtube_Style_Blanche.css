@@ -143,6 +143,11 @@ header button {
   height: 50px;
 }
 
+.aboutme,
+.blurb {
+  font-family: "Courier New", Courier, monospace;
+}
+
 /* Mobile Header */
 
 .mobile-header {
@@ -202,7 +207,7 @@ header button {
 }
 /* Music Page */
 
-.MOTLAlbumTitle {
+/* .MOTLAlbumTitle {
   text-align: left;
   display: flex;
   margin: 0 auto;
@@ -240,108 +245,106 @@ header button {
   justify-content: left;
   align-items: center;
   padding: 56px;
+} */
+
+.iconalbum {
+  padding: 16px;
+  align-items: flex-end;
+  justify-content: center;
 }
 
-/* Music Page Video2 */
+@media (min-width: 768px) {
+  .iconalbum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 
-#container {
+/* Music Page Videos */
+
+/* .video-container {
   display: flex;
-}
+  justify-content: right;
+  align-content: space-between;
+} */
 
-.text,
-.text2 {
+.Video1Title,
+.Video2Title,
+.Video1info,
+.Video2info {
   flex: 1;
   padding: 20px;
   align-content: right;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.video {
+.video-container {
   flex: 1;
 }
 
-.video video {
+.video-container {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* #youtubemusicitems .track3video {
-  text-align: left;
-  display: flex;
-  margin: 0 auto;
-  justify-content: left;
-  align-items: left;
-  padding: 56px;
-  height: 30vh;
-  background-image: url("Sacred Transformations_BeRead.mp4");
-  position: relative;
-}
-
-@media (min-width: 768px) {
-  .track3video {
-    display: flex;
-    align-items: left;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-    .Video2Header {
-  text-align: left;
-  display: flex;
-  margin: 0 auto;
-  justify-content: left;
-  align-items: left;
-}
-
-  .Video2Info {
-  text-align: left;
-  display: flex;
-  margin: 0 auto;
-  justify-content: left;
-  align-items: left;
-} */
 /* Music Page Top Image */
 
 .mysoundbanner-bg {
-  height: 30vh;
+  height: 8vh;
   background-image: url("MySound.png");
 }
 
 @media (min-width: 768px) {
-  #AlbumCover {
+  #AlbumCover,
+  .iconalbum {
     display: flex;
     align-items: left;
     width: 100%;
   }
+}
 
-  .TitleMySound {
-    font-size: 4rem;
+@media (min-width: 768px) {
+  .video-container {
+    display: flex;
     align-items: left;
+    width: 100%;
   }
+}
 
-  .SubtitleMySound {
-    opacity: 0.7;
-    font-weight: normal;
-    align-items: left;
-    justify-content: left;
-  }
+.TitleMySound {
+  font-size: 4rem;
+  align-items: left;
+}
 
-  .pageblurb {
-    margin-right: 80px;
-  }
+.SubtitleMySound {
+  opacity: 0.7;
+  font-weight: normal;
+  align-items: left;
+  justify-content: left;
+}
 
-  .pageblurb,
-  .mysoundbanner-bg {
-    flex: 1;
-  }
+.pageblurb {
+  margin-right: 80px;
+}
 
-  .mysoundbanner-bg {
-    height: 70vh;
-    background-image: url("MySound.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 62%;
-  }
+.pageblurb,
+.mysoundbanner-bg {
+  flex: 1;
+}
+
+.mysoundbanner-bg {
+  height: 8vh;
+  background-image: url("MySound.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 62%;
+}
+
+.video-container {
+  height: 88vh;
+  display: flex;
 }
 
 /* Modeling Page */
