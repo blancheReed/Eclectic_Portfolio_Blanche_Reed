@@ -1,12 +1,16 @@
 /* Base HTML Styles */
 
 :root {
-  --pink: #f38fb1;
   --yellow: #f4d040;
   --green: #57d68d;
-  --blue: #5dade2;
+  --lightblue: #5dade2;
+  --blue: #2905d4;
   --black: #111111;
   --gray: #c3c3c3;
+  --purple: #957eea;
+  --lightpurple: #eccffe;
+  --pink: #ff66c4;
+  --lightestpurple: #f9efff;
 }
 
 /* CSS Reset */
@@ -58,8 +62,10 @@ select {
 
 /* Components */
 
-.btn-primary,
-.btn-secondary {
+.contentlink1,
+.contentlink2,
+.contentlink3,
+.contentlink4 {
   background-color: white;
   padding: 16px 24px;
   display: inline-block;
@@ -69,18 +75,23 @@ select {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.btn-primary {
+.contentlink1,
+.contentlink2 .contentlink3,
+.contentlink4 {
   background-color: white;
 }
-.btn-secondary {
+/* .contentlink1,
+.contentlink2,
+.contentlink3,
+.contentlink4 {
   background-color: rgba(255, 255, 255, 0.6);
   border: 1px solid white;
-  text-align: center;
+  text-align: right;
   display: flex;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-}
+  justify-content: right;
+  align-items: right;
+} */
 
 /* Header */
 
@@ -140,24 +151,24 @@ header button {
   justify-content: center;
 }
 
-/* Mission Message */
+/* Landing Page */
 
-#youtube {
-  background-color: lightgoldenrodyellow;
+#webpageblurb {
+  background-color: var(--lightestpurple);
   padding: 56px 16px;
 }
 
-#youtube h1 {
+#webpageblurb h1 {
   font-size: 2rem;
   margin-bottom: 24px;
 }
 
-#youtube .content {
+#webpageblurb .content {
   color: red;
 }
 
 @media (min-width: 768px) {
-  #youtube {
+  #webpageblurb {
     padding: 120px 56px;
   }
 }
@@ -272,4 +283,88 @@ p {
   color: var(--black);
   display: block;
   padding: 4px 16px;
+}
+
+/* Content panels */
+
+#contentpanels {
+  display: inline-block;
+}
+
+#contentpanels .contentlink1 {
+  padding: 32px 16px;
+}
+
+#contentpanels .contentlink2 {
+  padding: 32px 16px;
+}
+
+#contentpanels .contentlink3 {
+  padding: 32px 16px;
+}
+
+#contentpanels .contentlink4 {
+  padding: 32px 16px;
+}
+
+@media (min-width: 768px) {
+  #contentpanels .contentlink1 .contentlink2 .contentlink3 .contentlink4 {
+    padding: 56px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contentpanels {
+    display: flex;
+  }
+}
+
+#contentpanels h3 {
+  margin-bottom: 16px;
+  color: var(--lightestpurple);
+}
+
+#contentpanels .contentlink1 .contentlink2 .contentlink3 .contentlink4 {
+  margin-bottom: 16px;
+}
+
+#contentpanels .contentlink1 .contentlink2 .contentlink3 .contentlink4 {
+  background-color: var(--blue);
+  transition: all 0.3s ease;
+}
+
+#contentpanels .contentlink1:hover {
+  filter: contrast(150%);
+}
+
+#contentpanels .contentlink2:hover {
+  filter: contrast(150%);
+}
+
+#contentpanels .contentlink3:hover {
+  filter: contrast(150%);
+}
+
+#contentpanels .contentlink4:hover {
+  filter: contrast(150%);
+}
+
+#contentpanels .contentlink1 .contentlink2 .contentlink3 .contentlink4 .icon {
+  height: 24px;
+}
+
+#contentpanels .panel1 {
+  background-color: var(--pink);
+}
+
+#contentpanels .panel2 {
+  background-color: var(--pink);
+}
+
+#contentpanels .panel3 {
+  background-color: var(--pink);
+}
+
+#contentpanels .panel4 {
+  background-color: var(--pink);
 }
