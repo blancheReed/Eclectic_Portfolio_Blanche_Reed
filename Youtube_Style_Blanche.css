@@ -347,6 +347,22 @@ header button {
   padding: 32px 16px;
 }
 
+#PhotoSection {
+  height: 40rem;
+  /* text-align: center; */
+  display: block;
+  /* margin: 40px auto; */
+  /* justify-content: center; */
+  /* align-items:center; */
+  padding: 32px 16px;
+}
+
+@media (min-width: 768px) {
+  #Photosection {
+    height: 10rem;
+  }
+}
+
 /* Utilities */
 
 .display-none {
