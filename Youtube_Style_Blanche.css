@@ -533,8 +533,21 @@ header button {
 
 /* Social Media Link */
 
-.InstagramIcon {
-  height: 8px;
+#SocialMedia .Instagram .InstagramIcon {
+  max-width: 10%;
+  height: 16px;
+  flex-direction: column;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #SocialMedia .Instagram .InstagramIcon {
+    height: 8px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* Footer */
@@ -550,4 +563,10 @@ footer {
   #poemspage_title .PoemBlurbTitle .PoemBlurbInfo {
     display: block;
   }
+}
+
+/* Career Page */
+
+.work_photo {
+  height: 400px;
 }
