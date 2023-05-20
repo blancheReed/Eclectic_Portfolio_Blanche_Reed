@@ -279,10 +279,10 @@ header button {
 
 /* Music Page Top Image */
 
-.mysoundbanner-bg {
+/* .mysoundbanner-bg {
   height: 8vh;
   background-image: url("MySound.png");
-}
+} */
 
 @media (min-width: 768px) {
   #AlbumCover,
@@ -354,7 +354,7 @@ header button {
   /* margin: 40px auto; */
   /* justify-content: center; */
   /* align-items:center; */
-  padding: 32px 16px;
+  padding: 32px 8px;
 }
 
 @media (min-width: 768px) {
@@ -636,4 +636,26 @@ footer {
 
 .work_photo {
   height: 400px;
+}
+
+@media (min-width: 768px) {
+  #AccentureSection,
+  .work_photo {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+.Caption {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#CareerInfo .CareerBackground {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+#CareerInfo .CareerSynopsis {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
