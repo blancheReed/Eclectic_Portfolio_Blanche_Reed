@@ -158,6 +158,14 @@ header button {
   }
 }
 
+@media (min-width: 768px) {
+  .modelingphoto1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /* Icon */
 
 #youtubeitems article {
@@ -329,7 +337,7 @@ header button {
 
 /* Modeling Page */
 
-#modelingitems .modelingphoto1 .modelingphoto2 {
+#modelingitems {
   height: 40rem;
   /* text-align: center; */
   display: block;
@@ -365,9 +373,10 @@ header button {
 
 #contentpanels {
   display: block;
+  padding: 32px 16px;
 }
 
-#contentpanels .contentlink1 {
+/* #contentpanels .contentlink1 {
   padding: 32px 16px;
 }
 
@@ -381,17 +390,20 @@ header button {
 
 #contentpanels .contentlink4 {
   padding: 32px 16px;
-}
+} */
 
 @media (min-width: 768px) {
   #contentpanels .contentlink1 .contentlink2 .contentlink3 .contentlink4 {
-    padding: 56px;
+    height: 40px;
   }
 }
 
 @media (min-width: 768px) {
   #contentpanels {
     display: flex;
+    margin: 20px;
+    justify-content: center;
+    padding: 32px 56px;
   }
 }
 
@@ -425,20 +437,20 @@ header button {
   filter: contrast(150%);
 }
 
-#contentpanels .contentlink1 .contentlink2 .contentlink3 .contentlink4 .icon {
-  height: 24px;
+#contentpanels .contentlink1 .contentlink2 .contentlink3 .contentlink4 {
+  height: 32px;
 }
 
 .contentlink1,
 .contentlink2,
 .contentlink3,
 .contentlink4 {
-  padding: 16px 24px;
+  padding: 60px 120px;
+  text-align: center;
   display: block;
   text-decoration: none;
   border-radius: 4px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: none;
 }
 
 .contentlink1,
@@ -468,3 +480,58 @@ header button {
 #contentpanels .panel4 {
   background-color: var(--pink);
 } */
+
+/* Contact Form */
+
+#contact {
+  padding: 48px 16px;
+}
+
+#contact input,
+#contact select {
+  margin-bottom: 16px;
+}
+
+#contact .ContactTitle {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  #contact .ContactTitle {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  #contact form {
+    max-width: 60%;
+    margin: 40px auto;
+  }
+}
+
+#contact input[type="submit"] {
+  background-color: var(--pink);
+  border: 0;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+/* Social Media Link */
+
+.InstagramIcon {
+  height: 8px;
+}
+
+/* Footer */
+
+footer {
+  padding: 16px;
+  text-align: center;
+}
+
+/* Poem Page */
+
+@media (min-width: 768px) {
+  #poemspage_title .PoemBlurbTitle .PoemBlurbInfo {
+    display: block;
+  }
+}
