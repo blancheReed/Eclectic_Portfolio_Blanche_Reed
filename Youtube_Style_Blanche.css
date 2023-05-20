@@ -533,20 +533,32 @@ header button {
 
 /* Social Media Link */
 
-#SocialMedia .Instagram .InstagramIcon {
-  max-width: 10%;
-  height: 16px;
-  flex-direction: column;
-  display: block;
+#SocialMedia {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.InstagramIcon,
+.FacebookIcon,
+.TwitterIcon,
+.LinkedInIcon,
+.GitHubIcon,
+.YoutubeIcon {
+  margin: 0 10px;
+  padding: 2px;
 }
 
 @media (min-width: 768px) {
-  #SocialMedia .Instagram .InstagramIcon {
-    height: 8px;
-    flex-direction: column;
+  .InstagramIcon,
+  .FacebookIcon,
+  .TwitterIcon,
+  .LinkedInIcon,
+  .GitHubIcon,
+  .YoutubeIcon {
+    /* max-width: 10%; */
+    height: 40px;
+    flex-direction: row;
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }
 
