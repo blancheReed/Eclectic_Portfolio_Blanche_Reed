@@ -42,10 +42,7 @@ My portfolio site: Eclectic_Portfolio_Blanche_Reed Link: https://blanchereed.git
 
 - [ ] Hover of Content Panel
 
-<iframe
-  src="img/Hover_ContentPanel.mp4"
-  style="width:100%; height:300px;"
-></iframe>
+[![A screenshot of the hover state on the content panel](img/hover_thumbnail.png)](img/Hover_ContentPanel.mp4)
 
 Design Brief
 
