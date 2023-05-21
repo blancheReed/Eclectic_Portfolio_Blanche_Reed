@@ -42,7 +42,7 @@ My portfolio site: Eclectic_Portfolio_Blanche_Reed Link: https://blanchereed.git
 
 - [ ] Hover of Content Panel
 
-[![A screenshot of the hover state on the content panel](img/hover_thumbnail.png)](img/Hover_ContentPanel.mp4)
+![A screenshot of the hover state on the content panel](img/hoverstates.gif)
 
 Design Brief
 
