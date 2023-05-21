@@ -95,6 +95,8 @@ I enjoy the designs of social media platforms such as Facebook and Instagram. I 
 
 ## Wireframes made with Excalidraw.
 
+![Image of the wireframe](img/Wireframe_BlancheReed_EclecticPortfolio.svg)
+
 ## Any design assets.
 
 All social media icons are from the following website: https://fontawesome.com/
