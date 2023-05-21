@@ -103,34 +103,54 @@ All social media icons are from the following website: https://fontawesome.com/
 
 ## Screenshots of Webpages
 
+I have uploaded the screenshot videos to YouTube. Please follow the links provided to view the full screenshot provided of each webpage I have created.
+
 - [x] Homepage
 
 [![A video screenshot of the Homepage in Desktop mode](https://img.youtube.com/vi/5NrSBmh4mmM/0.jpg)]("https://www.youtube.com/embed/5NrSBmh4mmM")
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5NrSBmh4mmM" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/embed/5NrSBmh4mmM
 
 [![A video screenshot of the Homepage in Mobile mode](https://img.youtube.com/vi/gOlpRahA_1Y/0.jpg)]("https://www.youtube.com/embed/gOlpRahA_1Y")
+
+https://www.youtube.com/embed/gOlpRahA_1Y
 
 - [x] My Career
 
 [![A video screenshot of the My Career webpage in Desktop mode](https://img.youtube.com/vi/rryz336qstI/0.jpg)]("https://www.youtube.com/embed/rryz336qstI")
 
+https://www.youtube.com/embed/rryz336qstI
+
 [![A video screenshot of the My Career webpage in Mobile mode](https://img.youtube.com/vi/ghhTvbJvn7M/0.jpg)]("https://www.youtube.com/embed/ghhTvbJvn7M")
+
+https://www.youtube.com/embed/ghhTvbJvn7M
 
 - [x] My Visuals
 
 [![A video screenshot of the My Visuals webpage in Desktop mode](https://img.youtube.com/vi/fwSIk0K7AfE/0.jpg)]("https://www.youtube.com/embed/fwSIk0K7AfE")
 
+https://www.youtube.com/embed/fwSIk0K7AfE
+
 [![A video screenshot of the My Visuals webpage in Mobile mode](https://img.youtube.com/vi/tM2pklsYC3U/0.jpg)]("https://www.youtube.com/embed/tM2pklsYC3U")
+
+https://www.youtube.com/embed/tM2pklsYC3U
 
 - [x] My Voice
 
 [![A video screenshot of the My Voice webpage in Desktop mode](https://img.youtube.com/vi/UESidswrW6o/0.jpg)]("https://www.youtube.com/embed/UESidswrW6o")
 
+https://www.youtube.com/embed/UESidswrW6o
+
 [![A video screenshot of the My Voice webpage in Mobile mode](https://img.youtube.com/vi/YkbZ-0XwDqA/0.jpg)]("https://www.youtube.com/embed/YkbZ-0XwDqA")
+
+https://www.youtube.com/embed/YkbZ-0XwDqA
 
 - [x] My Sound
 
 [![A video screenshot of the My Sound webpage in Desktop mode](https://img.youtube.com/vi/trlI2DHj2lM/0.jpg)]("https://www.youtube.com/embed/trlI2DHj2lM")
 
+https://www.youtube.com/embed/trlI2DHj2lM
+
 [![A video screenshot of the My Sound webpage in Mobile mode](https://img.youtube.com/vi/Ws0fqFPyRCg/0.jpg)]("https://www.youtube.com/embed/Ws0fqFPyRCg")
+
+https://www.youtube.com/embed/Ws0fqFPyRCg
