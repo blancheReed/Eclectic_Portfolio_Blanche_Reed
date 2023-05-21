@@ -81,25 +81,25 @@ mobileNav.classList.toggle("display-none");
 
 ![A screenshot of the hover state on the content panel](img/hoverstates.gif)
 
-# The goals of your project.
+## The goals of your project.
 
 The goals of my portfolio porject is to practice my HTML/CSS skillset that I have acquired during the three week module in the She Codes Australia Plus program. I aim to produce a deliverable that showcases website design principles and good coding best practices.
 
-# A description of your target audience.
+## A description of your target audience.
 
 The target audience is to anyone interested the content I produce. The target audience may be interested in music, written works, visual art, photography or fashion and the tech industry.
 
-# Some examples of page designs that you intend to draw inspiration from.
+## Some examples of page designs that you intend to draw inspiration from.
 
 I enjoy the designs of social media platforms such as Facebook and Instagram. I like to colours of Instagram and I enjoy the design layout of facebook.
 
-# Wireframes made with Excalidraw.
+## Wireframes made with Excalidraw.
 
-# Any design assets.
+## Any design assets.
 
 All social media icons are from the following website: https://fontawesome.com/
 
-# Screenshots of Webpages
+## Screenshots of Webpages
 
 - [] Homepage
 
