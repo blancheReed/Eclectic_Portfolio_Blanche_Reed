@@ -103,12 +103,32 @@ All social media icons are from the following website: https://fontawesome.com/
 
 ## Screenshots of Webpages
 
-- [] Homepage
+- [x] Homepage
 
-- [] My Career
+[![A video screenshot of the Homepage in Desktop mode]]("https://www.youtube.com/embed/5NrSBmh4mmM")
 
-- [] My Visuals
+[![A video screenshot of the Homepage in Mobile mode]]("https://www.youtube.com/embed/gOlpRahA_1Y")
 
-- [] My Voice
+- [x] My Career
 
-- [] My Sound
+[![A video screenshot of the My Career webpage in Desktop mode]]("https://www.youtube.com/embed/rryz336qstI")
+
+[![A video screenshot of the My Career webpage in Mobile mode]]("https://www.youtube.com/embed/ghhTvbJvn7M")
+
+- [x] My Visuals
+
+[![A video screenshot of the My Visuals webpage in Desktop mode]]("https://www.youtube.com/embed/fwSIk0K7AfE")
+
+[![A video screenshot of the My Visuals webpage in Mobile mode]]("https://www.youtube.com/embed/tM2pklsYC3U")
+
+- [x] My Voice
+
+[![A video screenshot of the My Voice webpage in Desktop mode]]("https://www.youtube.com/embed/UESidswrW6o")
+
+[![A video screenshot of the My Voice webpage in Mobile mode]]("https://www.youtube.com/embed/YkbZ-0XwDqA")
+
+- [x] My Sound
+
+[![A video screenshot of the My Sound webpage in Desktop mode]]("https://www.youtube.com/embed/trlI2DHj2lM")
+
+[![A video screenshot of the My Sound webpage in Mobile mode]]("https://www.youtube.com/embed/Ws0fqFPyRCg")
